@@ -2,11 +2,14 @@ body {
     font-family: "Lexend", sans-serif;
     align-items: center;
     background-color: #f4f4f4;
+    margin-left: 43%;
 }
 
 .menu {
-    width: 50%;
+    width: 35%;
     align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 6%;
 }
 
 .menu li {
@@ -18,6 +21,7 @@ body {
 
 .menu li:hover {
     background: #ddd;
+    border-radius: 6%;
 }
 
 .menu li i {
@@ -32,4 +36,7 @@ a {
     color: black;
     display: flex;
     align-items: center;
+}
+p{
+    margin-left: 20px;
 }
